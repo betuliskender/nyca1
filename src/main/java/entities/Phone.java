@@ -1,6 +1,7 @@
 package entities;
 
 import dtos.PhoneDto;
+import org.eclipse.persistence.annotations.CascadeOnDelete;
 
 
 import javax.persistence.*;
@@ -31,6 +32,7 @@ public class Phone {
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "person_id", nullable = false)
+    @CascadeOnDelete
     private Person person;
 
     public Phone() {
