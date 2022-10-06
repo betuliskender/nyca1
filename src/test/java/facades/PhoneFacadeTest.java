@@ -13,6 +13,7 @@ import java.util.List;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
+@Disabled
 public class PhoneFacadeTest
 {
     private static EntityManagerFactory emf;
