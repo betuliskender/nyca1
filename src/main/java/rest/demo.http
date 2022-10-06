@@ -121,7 +121,7 @@ Content-Type:application/json
 {"email": "nej@jegvilhjem.dk"}
 
 ###
-POST http://localhost:8080/devops_starter_war_exploded/api/person
+POST https://betulis.dk/CA1/api/person
 Content-Type: application/json
 
 {
